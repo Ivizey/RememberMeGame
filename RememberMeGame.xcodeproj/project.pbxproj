@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		471ED37323BE42080073F309 /* Remember.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471ED37223BE42080073F309 /* Remember.swift */; };
+		471ED37623BE429E0073F309 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 471ED37523BE429E0073F309 /* Card.swift */; };
 		47A220AD23B389160053B70B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A220AC23B389160053B70B /* AppDelegate.swift */; };
 		47A220AF23B389160053B70B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A220AE23B389160053B70B /* SceneDelegate.swift */; };
 		47A220B123B389160053B70B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A220B023B389160053B70B /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		471ED37223BE42080073F309 /* Remember.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Remember.swift; sourceTree = "<group>"; };
+		471ED37523BE429E0073F309 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		47A220A923B389160053B70B /* RememberMeGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RememberMeGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		47A220AC23B389160053B70B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		47A220AE23B389160053B70B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +41,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		471ED37423BE42140073F309 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				471ED37223BE42080073F309 /* Remember.swift */,
+				471ED37523BE429E0073F309 /* Card.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		47A220A023B389160053B70B = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +69,7 @@
 		47A220AB23B389160053B70B /* RememberMeGame */ = {
 			isa = PBXGroup;
 			children = (
+				471ED37423BE42140073F309 /* Model */,
 				47A220AC23B389160053B70B /* AppDelegate.swift */,
 				47A220AE23B389160053B70B /* SceneDelegate.swift */,
 				47A220B023B389160053B70B /* ViewController.swift */,
@@ -138,7 +152,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				471ED37323BE42080073F309 /* Remember.swift in Sources */,
 				47A220B123B389160053B70B /* ViewController.swift in Sources */,
+				471ED37623BE429E0073F309 /* Card.swift in Sources */,
 				47A220AD23B389160053B70B /* AppDelegate.swift in Sources */,
 				47A220AF23B389160053B70B /* SceneDelegate.swift in Sources */,
 			);
